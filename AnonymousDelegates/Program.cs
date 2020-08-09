@@ -15,6 +15,10 @@ namespace AnonymousDelegates
                 return (arg1 + arg2).ToString();
             };
             Console.WriteLine("The number is " + f(10, 20));
+            //Keep the console open until a key is pressed
+            Console.WriteLine("\n press any key to continue");
+            Console.ReadLine();
+
         }
     }
 }
