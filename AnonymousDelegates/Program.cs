@@ -2,6 +2,9 @@
 
 namespace AnonymousDelegates
 {
+    //Anonymous functions can be used to increase your code's
+    //readability by declaring the implementation of the delegate 
+    //right in line where it is used.
     public delegate string myDelegate(int arg1, int arg2);
 
     class Program
